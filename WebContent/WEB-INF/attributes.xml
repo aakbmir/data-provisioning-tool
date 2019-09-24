@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Attribute-list>
+	<ProvisionalDatabaseConfiguration>
+		<DBName>Provision</DBName>
+		<DBIPAddress>10.164.93.58</DBIPAddress>
+		<SID>nceref</SID>
+		<DBPortNumber>1521</DBPortNumber>
+		<TableUserId>COH</TableUserId>
+		<TableUserPwd>nceref</TableUserPwd>
+		<Environments>
+			<Environment>
+				<TableName>FDT_ACCOUNT_METADATA_PIPED:PIPE-D</TableName>
+			</Environment>
+			<Environment>
+				<TableName>FDT_ACCOUNT_METADATA_PIPEC:PIPE-C</TableName>
+			</Environment>
+		</Environments>
+		<AuthenticateTableName>USER_SPEC</AuthenticateTableName>
+	</ProvisionalDatabaseConfiguration>
+	<FinancierDatabaseConfiguration>
+		<DBName>Financier</DBName>
+		<DBIPAddress>10.164.93.41</DBIPAddress>
+		<SID>FN2NCSIT</SID>
+		<DBPortNumber>1521</DBPortNumber>
+		<TableUserId>sit_aditiarora</TableUserId>
+		<TableUserPwd>adiwelcome5</TableUserPwd>
+	</FinancierDatabaseConfiguration>
+	<CAMDatabaseConfiguration>
+		<DBName>CAM</DBName>
+		<DBIPAddress>10.160.151.144</DBIPAddress>
+		<SID>CAMNCST1</SID>
+		<DBPortNumber>1521</DBPortNumber>
+		<TableUserId>sit_aditiarora</TableUserId>
+		<TableUserPwd>adiwelcome5</TableUserPwd>
+	</CAMDatabaseConfiguration>
+	<CIMDatabaseConfiguration>
+		<DBName>CIM`</DBName>
+		<DBIPAddress>10.164.93.55</DBIPAddress>
+		<SID>NC2CIM</SID>
+		<DBPortNumber>1521</DBPortNumber>
+		<TableUserId>sit_aditiarora</TableUserId>
+		<TableUserPwd>adiwelcome5</TableUserPwd>
+	</CIMDatabaseConfiguration>
+	<SPDatabaseConfiguration>
+		<DBName>SP</DBName>
+		<DBIPAddress>10.164.93.55</DBIPAddress>
+		<SID>NC2SP</SID>
+		<DBPortNumber>1521</DBPortNumber>
+		<TableUserId>sit_aditiarora</TableUserId>
+		<TableUserPwd>adiwelcome5</TableUserPwd>
+	</SPDatabaseConfiguration>
+	<Attribute>
+		<attribute-name>Brand;principal_brand</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>LEX;LWI;LAI;N47</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Account Type;Account_Type</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>CREDIT;CASH;STAFF</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Account Status;CURRENT_ACCOUNT_STATUS</attribute-name>
+		<attribute-type>Input</attribute-type>
+	</Attribute>
+	<Attribute>
+		<attribute-name>AIR;CURRENT_AIR</attribute-name>
+		<attribute-type>Label</attribute-type>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Credit Limit;CREDIT_MONETARY_LIMIT</attribute-name>
+		<attribute-type>Label</attribute-type>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Next Statement Date;NEXT_STATEMENT_DATE_CIM
+		</attribute-name>
+		<attribute-type>Date</attribute-type>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Last Statement Number;LAST_STATEMENT_NUMBER
+		</attribute-name>
+		<attribute-type>Input</attribute-type>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Account BNPL Eligible;ACCOUNT_BNPL_ELIGIBLE
+		</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO;</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Arrears Indicator;ACCT_IN_ARREARS_CAM</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>Take 3;TAKE3_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>BNPL 12 and IBC 36;BNPL12_IBC36_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>IFC 36 SetupFee;IBC36_OPEN_SETUPFEE</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>IFC 36;IBC36_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>IFC 24;IFC24_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>IFC 4;IFC4_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>BNPL 12;BNPL12_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>BNPL 9;BNPL9_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>BNPL 6;BNPL6_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<Attribute>
+		<attribute-name>IBC 24;IBC24_OPEN</attribute-name>
+		<attribute-type>DropDown</attribute-type>
+		<Sub-attributes>YES;NO</Sub-attributes>
+	</Attribute>
+	<AccountDisplayList>
+		<Query>select Next_Statement_Date from cim_SIT.cim_account where
+			account_sid in (select account_sid from cim_SIT.cim_retail_account
+			where retail_account_number = ?)</Query>
+		<ComponentName>Next Statement Date_CIM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select NEXT_STAT_DT from financier0041_SIT.fnaghptt where
+			agr_code = ?</Query>
+		<ComponentName>Next Statement Date_Financier</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select (FNP.CRED_LIMIT - FNA.OBAL_NET) as OPEN_TO_BUY from
+			financier0041_SIT.fnaghptt FNP, financier0041_SIT.fnagrhd FNA where
+			FNP.AGR_CODE=FNA.AGR_CODE AND FNP.AGR_CODE = ?</Query>
+		<ComponentName>Open To Buy_Financier</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select BNPL_ELIGIBILITY_IND from
+			PILOT_DBA.trading_contract_details where CONTRACT_NUMBER = ?</Query>
+		<ComponentName>BNPL Eligibility Ind_CAM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select BNPL_ELIGIBILITY from CIM_SIT.cim_credit_account where
+			credit_account_number = ?</Query>
+		<ComponentName>BNPL Eligibility_CIM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select USER_PROFILE_NUMBER from cim_SIT.cim_account where
+			account_sid in (select account_sid from cim_SIT.cim_retail_account
+			where retail_account_number = ?)</Query>
+		<ComponentName>User Profile Number_CIM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select PAYMENT_DUE_DAY from cim_SIT.cim_credit_account where
+			account_sid in (select account_sid from cim_SIT.cim_retail_account
+			where retail_account_number = ?)</Query>
+		<ComponentName>Payment Due Day_CIM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select next_due from financier0041_SIT.fnagrhd where agr_code =
+			?</Query>
+		<ComponentName>Payment Due Date_Financier</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select Principal_Brand from PILOT_DBA.trading_contract_details
+			where contract_number =?</Query>
+		<ComponentName>Principal Brand_CAM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select COLLECTION_METHOD_SID from cim_SIT.cim_account where
+			account_sid in (select account_sid from cim_SIT.cim_retail_account
+			where retail_account_number = ?)</Query>
+		<ComponentName>Arrears Indicator_CIM</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select ARR_BAL from financier0041_SIT.FNAGRHD where AGR_CODE =
+			?</Query>
+		<ComponentName>Arrears Indicator_Financier</ComponentName>
+	</AccountDisplayList>
+	<AccountDisplayList>
+		<Query>select
+			cadd.postcode_area,cadd.postcode_district,cadd.postcode_sector,cadd.postcode_street,cadd.non_royal_mail_postcode
+			from cim_SIT.CIM_CUSTOMER_ADDRESS CCD,cim_SIT.CIM_ADDRESS
+			CADD,cim_SIT.CIM_ACCOUNT CA,cim_SIT.CIM_RETAIL_ACCOUNT CRA,
+			cim_SIT.CIM_CREDIT_ACCOUNT CCA where CA.CUSTOMER_SID =
+			CCD.CUSTOMER_SID AND CCD.ADDRESS_SID = CADD.ADDRESS_SID AND
+			CA.ACCOUNT_SID = CRA.ACCOUNT_SID AND CA.ACCOUNT_SID = CCA.ACCOUNT_SID
+			AND cra.retail_account_number = ?</Query>
+		<ComponentName>Post Code_CIM</ComponentName>
+	</AccountDisplayList>
+
+	<OrderDisplayList>
+		<Query>select count(ORDER_NO) as NUMBER_OF_ORDERS from
+			PILOT_DBA.order_item where contract_number = ?</Query>
+		<ComponentName>Number of Orders_CAM</ComponentName>
+	</OrderDisplayList>
+	<OrderDisplayList>
+		<Query>select obal_net from financier0041_SIT.fnagrhd where agr_code =
+			?</Query>
+		<ComponentName>Overall Balance_Financier</ComponentName>
+	</OrderDisplayList>
+	<OrderDisplayList>
+		<Query>select prod_code,pln_term_per,start_dte,pln_cur_term,bnpl_edate
+			from FINANCIER0041_SIT.fncdrdwhd where agr_code = ?</Query>
+		<ComponentName>Misc_Financier</ComponentName>
+	</OrderDisplayList>
+	<OrderDisplayList>
+		<Query>select APR from FINANCIER0041_SIT.fnagrhd where agr_code = ?
+		</Query>
+		<ComponentName>APR_Financier</ComponentName>
+	</OrderDisplayList>
+</Attribute-list>

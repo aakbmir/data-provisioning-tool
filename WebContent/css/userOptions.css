@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background: #262626;
+}
+
+
+.card:hover 
+{
+	background:cadetblue;
+}
+
+.testimonials {
+	
+}
+
+.testimonials .card {
+	height: 400px;
+    background: linear-gradient(rgb(29, 67, 80), rgb(136, 76, 80));
+    
+    width: 300px;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    overflow: hidden;
+}
+
+.testimonials .card .layer {
+	position: absolute;
+	top: calc(100% - 2px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgb(29, 67, 80), rgb(136, 76, 80));
+	z-index: 1;
+	transition: 0.5s;
+}
+
+.testimonials .card:hover .layer {
+	top: 0;
+}
+
+.testimonials .card .content {
+	position: relative;
+	z-index: 2;
+}
+
+.testimonials .card .content p {
+	font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    height: 130px;
+}
+
+.testimonials .card .content .image {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 40%; 
+	overflow: hidden;
+	/* border: 4px solid #fff; */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.testimonials .card .content .details {
+	padding-top:30px;
+}
+
+.testimonials .card .content .details h2 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.testimonials .card .content .details h2 span {
+	color: aqua;
+	font-size: 14px;
+	transition: 0.5s;
+}
+
+.testimonials .card:hover .content .details h2 span {
+	color: #fff;
+}
